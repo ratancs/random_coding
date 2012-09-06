@@ -1,4 +1,7 @@
-/*In the 8X8 chess board, taking only knight into consideration, if we start the knight from any square of the chessboard, the aim is to cover max number of square , without repeating any square . so far I have found the most efficient solution with my code below is:
+/*In the 8X8 chess board, taking only knight into consideration,
+if we start the knight from any square of the chessboard, 
+the aim is to cover max number of square , without repeating any square . 
+so far I have found the most efficient solution with my code below is:
 
 60    29    34    49    0    15    46    0
 
@@ -15,7 +18,8 @@
 42    57    38    53    26    19    24    7
 
 39    54    41    56    0    22    5    20
-Where the number starting with 1, shows the path followed by knight. My question is can this code be corrected for a perfect answer which is 64 (mine reaches only 60)?*/
+Where the number starting with 1, shows the path followed by knight. 
+My question is can this code be corrected for a perfect answer which is 64 (mine reaches only 60)?*/
 
 import java.io.BufferedReader;  
 import java.io.IOException;
